@@ -1,0 +1,150 @@
+.header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  background-image: url(../images/logo.svg);
+  width: 135px;
+  background-size: cover;
+  margin: 24px 30px;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.menu__item {
+  margin: auto 0;
+  color: #000;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.test {
+  padding: 120px 0 0 30px;
+  color: #fff;
+  background-image: url(../images/banner-photo.jpg);
+  background-size: cover;
+  margin-bottom: 165px;
+}
+.test__text {
+  width: 400px;
+  font-size: 50px;
+  line-height: 54px;
+  margin-bottom: 40px;
+}
+.test__text-long {
+  font-size: 16;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.test__button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 38px;
+  margin-bottom: 120px;
+  color: #fff;
+  font-size: 16;
+  line-height: 24px;
+  background-color: #ef5b4c;
+}
+
+.acquainting {
+  padding: 0 30px 0 55px;
+  margin-bottom: 160px;
+}
+.acquainting__text--heading {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 50px;
+  line-height: 54px;
+  margin-bottom: 80px;
+}
+.acquainting__row {
+  display: flex;
+  justify-content: space-between;
+}
+.acquainting__image {
+  width: 300px;
+  height: 250px;
+  background-image: url(../images/man-laptop-v1.svg);
+  background-size: cover;
+}
+.acquainting__column {
+  width: 570px;
+}
+.acquainting__column--text1 {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 30px;
+}
+.acquainting__column--text2 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.acquainting__column--text3 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.acquainting__column--link {
+  text-decoration: none;
+  color: #ef5b4c;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.users {
+  background-color: #f9f9f3;
+  padding: 160px 80px 0;
+  text-align: center;
+}
+.users__text--heading {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 50px;
+  line-height: 54px;
+  margin-bottom: 100px;
+}
+.users__button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 38px;
+  margin-bottom: 120px;
+  color: #fff;
+  font-size: 16;
+  line-height: 24px;
+  background-color: #ef5b4c;
+}
+
+.cards {
+  margin: 0 auto;
+  width: 670px;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.card {
+  width: 200px;
+  margin-right: 30px;
+}
+.card__img {
+  margin-bottom: 20px;
+}
+.card__name {
+  margin-bottom: 21px;
+}
+.card__position {
+  margin-bottom: 12px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*# sourceMappingURL=index.css.map */

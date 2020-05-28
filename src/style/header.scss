@@ -1,0 +1,26 @@
+.header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+        background-image: url(../images/logo.svg);
+        width: 135px;
+        background-size: cover;
+        margin: 24px 30px;
+        text-decoration: none;
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    &__item {
+    margin: auto 0;
+    color: #000;
+    text-decoration: none;
+    margin-right: 30px;
+    }
+}

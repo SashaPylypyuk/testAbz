@@ -1,0 +1,31 @@
+.test {
+    padding: 120px 0 0 30px;
+    color: #fff;
+    background-image: url(../images/banner-photo.jpg);
+    background-size: cover;
+    margin-bottom: 165px;
+
+    &__text {
+        width: 400px;
+        font-size: 50px;
+        line-height: 54px;
+        margin-bottom: 40px;
+    }
+
+    &__text-long {
+        font-size: 16;
+        line-height: 24px;
+        margin-bottom: 40px;
+    }
+
+    &__button {
+        border: none;
+        border-radius: 5px;
+        padding: 10px 38px;
+        margin-bottom: 120px;
+        color: #fff;
+        font-size: 16;
+        line-height: 24px;
+        background-color: #ef5b4c;
+    }
+}
