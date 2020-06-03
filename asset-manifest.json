@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/testAbz/static/css/main.58d9b44a.chunk.css",
+    "main.js": "/testAbz/static/js/main.70a73fa6.chunk.js",
+    "main.js.map": "/testAbz/static/js/main.70a73fa6.chunk.js.map",
+    "runtime-main.js": "/testAbz/static/js/runtime-main.856db925.js",
+    "runtime-main.js.map": "/testAbz/static/js/runtime-main.856db925.js.map",
+    "static/js/2.f274ef2d.chunk.js": "/testAbz/static/js/2.f274ef2d.chunk.js",
+    "static/js/2.f274ef2d.chunk.js.map": "/testAbz/static/js/2.f274ef2d.chunk.js.map",
+    "index.html": "/testAbz/index.html",
+    "precache-manifest.4aafa5a638dc991623543ccf7eec70e8.js": "/testAbz/precache-manifest.4aafa5a638dc991623543ccf7eec70e8.js",
+    "service-worker.js": "/testAbz/service-worker.js",
+    "static/css/main.58d9b44a.chunk.css.map": "/testAbz/static/css/main.58d9b44a.chunk.css.map",
+    "static/js/2.f274ef2d.chunk.js.LICENSE.txt": "/testAbz/static/js/2.f274ef2d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/testAbz/static/media/man-laptop-v1.3cdf7897.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.856db925.js",
+    "static/js/2.f274ef2d.chunk.js",
+    "static/css/main.58d9b44a.chunk.css",
+    "static/js/main.70a73fa6.chunk.js"
+  ]
+}
