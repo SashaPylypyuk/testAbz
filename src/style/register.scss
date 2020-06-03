@@ -1,0 +1,29 @@
+.register {
+    padding: 250px;
+
+    &__text--heading {
+        margin-bottom: 100px;
+        font-size: 50px;
+        line-height: 54px;
+    }
+}
+
+.form {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    flex-direction: column;
+
+    &__text-type {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 5px 16px;
+        border: 1px solid #b8bec5;
+        border-radius: 5px;
+        margin: 15px 0 30px;
+        width: 465px;
+        height: 36px;
+    }
+}

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Users } from './Users';
+import { Register } from './Register';
 import './style/index.css';
 
 function App() {
@@ -33,7 +35,7 @@ function App() {
           <p className="test__text-long">
             We kindy remind you that your test assignment should be submitted as a link to github/bitbucket repository.
           </p>
-          <button className="test__button">
+          <button className="button">
             Sign up now
           </button>
       </section>
@@ -63,80 +65,8 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="users">
-        <p className="users__text--heading">
-          Our cheerful users
-        </p>
-        <div className="cards">
-          <div className="card">
-            <div className="card__img" />
-            <p className="card__name">
-              Maxmilian
-            </p>
-            <p className="card__position">
-              position
-            </p>
-            <p className="card__email">
-              email
-            </p>
-            <p className="card__phone">
-              some numbers
-            </p>
-          </div>
-          <div className="card">
-            <div className="card__img" />
-            <p className="card__name">
-            Maxmilian
-            </p>
-            <p className="card__position">
-            position
-            </p>
-            <p className="card__email">
-            email
-            </p>
-            <p className="card__phone">
-            some numbers
-            </p>
-          </div>
-          <div className="card">
-            <div className="card__img" />
-            <p className="card__name">
-            Maxmilian
-            </p>
-            <p className="card__position">
-            position
-            </p>
-            <p className="card__email">
-            email
-            </p>
-            <p className="card__phone">
-            some numbers
-            </p>
-          </div>
-        </div>
-        <button className="users__button">
-          Show more
-        </button>
-      </section>
-      <section className="register">
-        <p className="register__text--heading">
-          Register to get a work
-        </p>
-        <form>
-          <label>
-            Name
-            <input type="text"/>
-          </label>
-          <label>
-            Email
-            <input type="text"/>
-          </label>
-          <label>
-            Phone number
-            <input type="text"/>
-          </label>
-        </form>
-      </section>
+     <Users />
+    <Register />
     </div>
   );
 }
